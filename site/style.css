@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -124,3 +125,131 @@ li {
     opacity: 0.75;
     object-fit: cover; /* Обеспечивает сохранение пропорций изображений */
 }
+=======
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('images/background.jpg') no-repeat center center fixed; /* Картинка фона для всей страницы */
+    background-size: cover; /* Покрытие всей страницы картинкой */
+    color: #333;
+}
+
+header {
+    background: rgba(0, 0, 0, 0);  /* Полностью прозрачный фон для шапки */
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    position: relative;
+}
+
+header .logo {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    height: 40px;  /* Высота логотипа */
+}
+
+header .logo img {
+    height: 100%;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    padding-left: 60px;  /* Отступ слева */
+    padding-right: 60px; /* Отступ справа */
+    background-image: url('images/main-background.jpg'); /* Картинка фона для основного контента */
+    background-size: 80% auto; /* Уменьшаем картинку по бокам, оставляем ее пропорциональной */
+    background-position: center center; /* Центрирование картинки */
+    background-attachment: fixed; /* Закрепление картинки */
+}
+
+footer {
+    background: rgba(0, 0, 0, 1);  /* Полностью непрозрачный черный фон для подвала */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+section img, article img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+.wide-text {
+    font-size: 1.5em;  /* Увеличиваем размер шрифта */
+    line-height: 1.6;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: justify;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+section a {
+    color: #333; /* Темно-серый цвет */
+    font-size: 1.2em; /* Размер шрифта */
+    text-decoration: none; /* Убираем подчеркивание */
+}
+
+section a:hover {
+    text-decoration: underline; /* Подчеркивание при наведении */
+}
+
+h2 {
+    font-size: 2em;  /* Увеличиваем размер шрифта для заголовка */
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 1.2em; /* Увеличиваем шрифт для параграфов */
+    line-height: 1.6; /* Устанавливаем высоту строки */
+}
+
+li {
+    font-size: 1.2em; /* Увеличиваем шрифт для элементов списка */
+    line-height: 1.6; /* Устанавливаем высоту строки */
+}
+.team-list li {
+    font-size: 1.5em; /* Увеличиваем размер шрифта для списка участников */
+    line-height: 1.6; /* Устанавливаем высоту строки */
+}
+.fio-label {
+    font-size: 1.4em; /* Увеличиваем размер шрифта для ФИО: */
+    font-weight: bold; /* Жирный шрифт для ФИО: */
+}
+
+.full-name {
+    font-size: 1.4em; /* Увеличиваем размер шрифта для полного имени */
+    font-weight: normal; /* Убираем жирность для полного имени */
+}
+
+.video-section video {
+    max-width: 60%;  /* Устанавливаем максимальную ширину для видео */
+    height: auto;    /* Высота будет автоматически подстраиваться */
+}
+
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px; /* Расстояние между изображениями */
+}
+
+.image-gallery img {
+    width: 48%; /* Каждое изображение будет занимать 48% ширины родительского контейнера */
+    height: auto;
+    opacity: 0.75;
+    object-fit: cover; /* Обеспечивает сохранение пропорций изображений */
+}
+>>>>>>> fe71cf91bed8bb391f9b3fbda9b482e5eb5fe263
