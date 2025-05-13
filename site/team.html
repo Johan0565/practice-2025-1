@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Участники</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .team-list li {
+            font-size: 1.5em; /* Увеличиваем размер шрифта для списка участников */
+            line-height: 1.6; /* Устанавливаем высоту строки */
+        }
+        
+        .fio-label {
+            font-size: 1.5em; /* Увеличиваем размер шрифта для ФИО: */
+            font-weight: bold; /* Жирный шрифт для ФИО: */
+        }
+        
+        .full-name {
+            font-size: 1.5em; /* Увеличиваем размер шрифта для полного имени */
+            font-weight: normal; /* Убираем жирность для полного имени */
+        }
+        
+        .tab-space {
+            display: inline-block; /* Убедимся, что пробелы не блокируют размещение */
+        }
+        
+        .contribution-list {
+            font-size: 1.3em;
+            line-height: 1.8;
+        }
+        
+        .video-section {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="images/logo.png" alt="Логотип"></a>
+        </div>
+        <h1>Наша команда</h1>
+        <nav>
+            <a href="about.html">О проекте</a>
+            <a href="team.html">Участники</a>
+            <a href="journal.html">Журнал</a>
+            <a href="resources.html">Ресурсы</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Лидер проекта: </h2>
+            <ul class="team-list">
+                <li>Ушаков М. В.</li>
+            </ul>
+            <h2>Куратор проекта: </h2>
+            <ul class="team-list">
+                <li>Соболь Т. С.</li>
+            </ul>
+
+            <h2>Команда проекта:</h2>
+            <ul class="team-list">
+                <li>Ануфриев П.Д.; Коваленко М.С.; Коршунов Д.И.; Крамской И.С.; Лазарева А.А.; Магомедов М.Р.; Митрофанова А.М.; Никитин О.Е.; Николаев А.В.; Осадчий А.А.; Петров К.Е.; Пронюк Г.Я.; Татарникова Т.А.; Ушаков М.В.; Чегодаев А.С.</li>
+            </ul>
+        </section>
+        
+        <section>
+            <h2>Обо мне и моей роли в проекте:</h2>
+            <h3 class="info_about_me">
+                <span class="tab-space">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                <span class="fio-label">ФИО:</span> 
+                <span class="full-name">Магомедов Магомед Расулович</span>
+            </h3>
+            <h3 class="info_about_me">
+                <span class="tab-space">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                <span class="fio-label">Группа:</span> 
+                <span class="full-name">241-362</span>
+            </h3>
+            <h3 class="info_about_me">
+                <span class="tab-space">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                <span class="fio-label">Роль в проекте:</span> 
+                <span class="full-name">Разработчик на Unreal Engine 5.5</span>
+            </h3>
+            
+            <h2>Мой основной вклад в проект:</h2>
+            <div class="contribution-list">
+                <ol>
+                    <li>В проекте было переделано назначение клавиш в Input map: изначально прыжок был на "Shift", а бег на "Пробел". Эти действия были перепривязаны для более удобного управления. Также была добавлена поддержка управления с контроллера Xbox, что позволило улучшить игровой процесс для пользователей с джойстиками.
+                        <div class="video-section">
+                            <img src="images/inputForGamePad.png" alt="Input Map" style="max-width: 80%; height: auto; opacity: 0.75">
+                        </div>
+                    </li>
+                    <li>Добавление для персонажа Deathblow Executions. Добивания активируются, когда у врага остается около 60% здоровья. Добивания не работают на расстоянии и в воздухе. Можно отменить атаку для проведения добивания. Пример приведен на видео ниже. 
+                        <div class="video-section">
+                            <video controls class="video-player">
+                                <source src="videos/Video1.mp4" type="video/mp4">
+                                Ваш браузер не поддерживает видео.
+                            </video>
+                        </div>
+                    </li>
+                    <li>Создание магических шаров, выпускаемых врагами и основным персонажем.
+                        <div class="video-section">
+                            <video controls class="video-player">
+                                <source src="videos/Video2.mp4" type="video/mp4">
+                                Ваш браузер не поддерживает видео.
+                            </video>
+                        </div>
+                    </li>
+                </ol>
+            </div>
+        </section>
+    </main>
+    <div style="height: 130px;"></div> 
+    <footer>
+        <p>© 2025 Проектная группа</p>
+    </footer>
+</body>
+</html>
