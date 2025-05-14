@@ -107,10 +107,23 @@ body {
 ```
 
 Дизайн фона и логотипа("SARAYASHIKI", для перехода на index.html), который используется на сайте был разработан специально для этого проекта и нигде используется, в том числе и открытых источниках, помимо данного репозитория.
-Пример фона и логотипа:
+Пример фона:
 ![background![logo](https://github.com/user-attachments/assets/09bb99a5-4620-4fb5-9eb4-f36f4087c3ac)
 ](https://github.com/user-attachments/assets/9840a2a0-dae7-466f-8ce7-0281e157c269)
 
+
+
+
+
+
+
+
+
+
+
+
+Логотип: 
+![logo](https://github.com/user-attachments/assets/e116c251-3578-4c12-80a9-bf01cd4b07d3)
 
 ## 4. Заключение
 
