@@ -123,6 +123,8 @@ body {
 
 
 Логотип: 
+
+
 ![logo](https://github.com/user-attachments/assets/e116c251-3578-4c12-80a9-bf01cd4b07d3)
 
 ## 4. Заключение
